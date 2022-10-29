@@ -165,7 +165,7 @@ export default function Asset() {
             />
           </ImageEl>
           <ChainLink>
-            View Crypto.org Chain details <HiOutlineExternalLink />
+            View Crypto.org Chain details mother fucker<HiOutlineExternalLink />
           </ChainLink>
         </LeftSection>
         <RightSection>
