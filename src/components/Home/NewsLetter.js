@@ -69,7 +69,7 @@ const ChBox = styled.div`
 export default function NewsLetter() {
   return (
     <NewsLetterEl>
-      <Title>Never miss a drop</Title>
+      <Title>Never miss a news</Title>
       <Sub>Subscribe for the latest news, drops & collectibles</Sub>
       <Input>
         <input type="email" placeholder="Email" />

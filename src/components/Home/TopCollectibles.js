@@ -63,9 +63,9 @@ const ShowMore = styled.button`
 export default function TopCollectibles() {
   return (
     <TopCollectiblesEl>
-      <Title>Top Collectibles</Title>
+      <Title>Top Renters</Title>
       <TopSection>
-        <Sort>Sales Volume</Sort>
+        <Sort>Rentings</Sort>
         <Date>Today</Date>
       </TopSection>
       <Grid>

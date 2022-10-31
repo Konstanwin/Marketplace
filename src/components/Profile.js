@@ -9,6 +9,7 @@ import Head from "next/head";
 import Tabs from "./styled/Tabs.styled";
 import Tab from "./styled/Tab.styled";
 import { NFTs } from "../Info";
+
 const ProfileEl = styled.article`
   background-color: ${Colors.White};
   color: ${Colors.Black};
@@ -118,7 +119,7 @@ const StatValue = styled.span`
 const AllTabs = [
   {
     Id: 1,
-    Title: "Collectibles",
+    Title: "Owned",
     Content: (
       <Grid>
         {NFTs.map((nft) => {
@@ -127,7 +128,7 @@ const AllTabs = [
       </Grid>
     ),
   },
-  { Id: 2, Title: "Selling", Content: <Tab /> },
+  { Id: 2, Title: "Rentings", Content: <Tab /> },
   { Id: 3, Title: "Created", Content: <Tab /> },
   { Id: 4, Title: "Liked", Content: <Tab /> },
 ];
@@ -136,11 +137,11 @@ export default function Profile({ username = "newk3d" }) {
   return (
     <ProfileEl>
       <Head>
-        <title>Crypto.com NFT Markeplace - {username}</title>
+        <title>Bitrent.com NFT Markeplace - {username}</title>
       </Head>
       <Cover>
         <Image
-          src="/images/cover/newk3d.png"
+          src="/images/cover/cover.png"
           //   width="1440"
           //   height="480"
           layout="fill"
@@ -150,20 +151,19 @@ export default function Profile({ username = "newk3d" }) {
         <Info>
           <Avatar>
             <Image
-              src="/images/avatar/newk3d.png"
+              src="/images/avatar/mrnodia.png"
               layout="fill"
               //   width="150"
               //   height="150"
             />
           </Avatar>
-          <Name>newk3d</Name>
+          <Name>Mr.Nodia </Name>
           <Username>
             <BsFillPatchCheckFill />
-            newk3d
+            Verified  
           </Username>
           <Bio>
-            {`Newk3d is a Norwegian 3D artist with a passion for digital art and creating in general. His style consists of flashy iridescent metals that catches the eye. He is influenced by a wide array of topics, from fantasy to cyberpunk.
-He has been pushing himself creatively by making new art every single day for over 600 days.`}
+            {`Mr.Nodia is individual who own Comercial Places, Apartments , Restourants .`}
           </Bio>
           <Socials>
             <a href="#">
@@ -183,12 +183,12 @@ He has been pushing himself creatively by making new art every single day for ov
               <StatValue>84K</StatValue>
             </StatItem>
             <StatItem>
-              <StatTitle>Created</StatTitle>
-              <StatValue>12</StatValue>
+              <StatTitle>Rented</StatTitle>
+              <StatValue>153</StatValue>
             </StatItem>
             <StatItem>
-              <StatTitle>Minted</StatTitle>
-              <StatValue>1.2K</StatValue>
+              <StatTitle>Earned</StatTitle>
+              <StatValue>55.2K</StatValue>
             </StatItem>
           </Stats>
         </Info>

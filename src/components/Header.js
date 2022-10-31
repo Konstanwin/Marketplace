@@ -116,8 +116,8 @@ export default function Header({ mobileMenu }) {
         )}
       </MenuIcon>
       <Center>
-        <Logo src="/images/cryptoLogo.png" />
-        <LogoText href="#">NFT</LogoText>
+        <Logo src="/images/bitrentLogo.png" />
+        <LogoText href="#">BITRENT</LogoText>
         <SearchBar />
         <Nav>
           <ul>
@@ -125,13 +125,13 @@ export default function Header({ mobileMenu }) {
               <NavItem href="#">Marketplace</NavItem>
             </li>
             <li>
-              <NavItem href="#">Drops</NavItem>
+              <NavItem href="#">Developers</NavItem>
             </li>
             <li>
-              <NavItem href="#">Brands</NavItem>
+              <NavItem href="#">Brand</NavItem>
             </li>
             <li>
-              <Button>Create</Button>
+              <Button>Rent and Earn</Button>
             </li>
           </ul>
         </Nav>
@@ -144,8 +144,7 @@ export default function Header({ mobileMenu }) {
       ) : (
         ""
       )}
-      <AuthItems href="#">Sign In</AuthItems>
-      <AuthItems href="#">Sign Up</AuthItems>
+      <AuthItems href="#">Connect Wallet</AuthItems>
       <SearchIcon>
         <CgSearch
           onClick={() => {

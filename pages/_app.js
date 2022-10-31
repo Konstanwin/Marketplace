@@ -6,8 +6,9 @@ import Button from "../src/components/styled/Button.styled";
 import Page from "../src/components/styled/Page.styled";
 import Footer from "../src/components/Footer";
 
+
 const GlobalStyle = createGlobalStyle`
- 
+  
 
   html,
   body {
@@ -120,7 +121,7 @@ function MyApp({ Component, pageProps }) {
               </li>
             </ul>
           </MobileMenu>
-          <Component {...pageProps} />
+            <Component {...pageProps} />
         </Page>
         <Footer />
       </Main>

@@ -60,11 +60,11 @@ export default function EditionSelector() {
         </BottomBtn>
       </BtnContainer>
       <EdInfo>
-        <EditionLabel>Edition #53</EditionLabel>
-        <MintDate>(Minted on 29 Jan, 2022)</MintDate>
+        <EditionLabel>Contract #53</EditionLabel>
+        <MintDate>(Renting period on 29 Jan, 2022)</MintDate>
       </EdInfo>
       <SelectEdition href="#">
-        Select Edition <BsChevronRight />
+        Select Contract <BsChevronRight />
       </SelectEdition>
     </EditionSelectorEl>
   );

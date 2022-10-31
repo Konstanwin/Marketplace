@@ -129,28 +129,28 @@ const Img = styled.div`
 const Items = [
   {
     Id: 1,
-    Badge: "UPCOMING",
+    Badge: "UPCOMING RENTING",
     Date: "Tue, Feb 01",
-    Title: "UFC 271",
-    Author: "UFC",
+    Title: "RESIDECIAL - FLOOR 22",
+    Author: "Alliance Group",
 
     ImageSrc: "/images/slider/2.png",
   },
   {
     Id: 2,
-    Badge: "SOLD OUT",
+    Badge: "OUT OF RENTING",
     Date: "Tue, Feb 01",
-    Title: "Slide 2",
-    Author: "UFC",
+    Title: "RESTOURANT FOR RENTING",
+    Author: "Axis Towers",
 
     ImageSrc: "/images/slider/3.jpeg",
   },
   {
     Id: 3,
-    Badge: "LIVE NOW",
+    Badge: "RENT NOW",
     Date: "Tue, Feb 01",
-    Title: "Slide 3",
-    Author: "UFC",
+    Title: "Comercial Space - Co-working Space",
+    Author: "BLOX",
 
     ImageSrc: "/images/slider/4.jpg",
   },
@@ -164,8 +164,8 @@ export default function Hero() {
   return (
     <HeroEl>
       <Title>
-        <Heading>Buy, sell, and showcase NFTs</Heading>
-        <Sub>from leading creators and brands</Sub>
+        <Heading>Rent and Earn </Heading>
+        <Sub>The easiest way to rent using crypto </Sub>
       </Title>
       <Slider>
         <InfoContainer>
@@ -205,7 +205,7 @@ export default function Hero() {
               }}
             />
           </MiddleSection>
-          <Button>View Drop</Button>
+          <Button>View Rentings</Button>
         </InfoContainer>
         <Lines>
           {Slides.map((s) => {

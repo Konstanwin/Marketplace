@@ -54,7 +54,7 @@ export default function Footer() {
         </a>
       </Socials>
       <CopyRight>
-        Copyright &copy; 2022 Crypto.com. All rights reserved.
+        Copyright &copy; 2022 Bitrent.com. All rights reserved.
       </CopyRight>
       <Links>
         <a href="#">Help Center</a>

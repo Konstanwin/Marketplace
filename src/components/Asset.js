@@ -158,14 +158,14 @@ export default function Asset() {
         <LeftSection>
           <ImageEl>
             <Image
-              src="/images/nft/bking.png"
+              src="/images/rentings/all.png"
               layout="responsive"
               width="1000px"
               height="1000px"
             />
           </ImageEl>
           <ChainLink>
-            View Crypto.org Chain details mother fucker<HiOutlineExternalLink />
+            View Bitrent contract details <HiOutlineExternalLink />
           </ChainLink>
         </LeftSection>
         <RightSection>
@@ -192,26 +192,25 @@ export default function Asset() {
           </TopBtns>
           <AuthorContainer>
             <AvatarEl>
-              <Image src="/images/avatar/newk3d.png" width="50" height="50" />
+              <Image src="/images/avatar/mrnodia.png" width="50" height="50" />
             </AvatarEl>
             <span>
               <CreatorLabel>Creator</CreatorLabel>
-              <UsernameEl>newk3d</UsernameEl>
+              <UsernameEl>Mr.Nodia</UsernameEl>
             </span>
           </AuthorContainer>
-          <EditionEl>371 Editions Minted</EditionEl>
+          <EditionEl>House on 22 Floor</EditionEl>
           <span>
-            <Title>KING BITCOIN</Title>
+            <Title>RENT NOW ON OUR </Title>
             <MarketPlace>Marketplace</MarketPlace>
           </span>
           <AcOfferLabel>Accepting Offers</AcOfferLabel>
           <Des>
-            King Bitcoin is the oldest and wisest of the cryptoskeletons. When
-            all hope is lost the others look to him for guidance into the lands
-            of unlimited profit.
+            I am renting house in Alliance Group New Apartment "22 Floor" with beautiful vwie on 
+            Tbilisi. I accepted crypto as a payment. 
           </Des>
           <TagContainer>
-            <Tag>Crypto</Tag>
+            <Tag>BITCOIN , USDT , DAI</Tag>
           </TagContainer>
           <EditionSelector />
           <Tabs mt="1rem" data={AllTabs} />

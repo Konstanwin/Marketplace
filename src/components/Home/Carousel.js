@@ -119,8 +119,8 @@ export default function Carousel() {
   const [ScrollInd, setScrollInd] = useState("b");
   return (
     <CarouselEl>
-      <Button>Best Selling</Button>
-      <Title>Top Creators</Title>
+      <Button>Top Rentings</Button>
+      <Title>Top Renters</Title>
       <Controls>
         <CtrlBtn
           active={ScrollInd === "e" || ScrollInd === "m"}
@@ -162,15 +162,15 @@ export default function Carousel() {
                 <Item>
                   <Avatar>
                     <Image
-                      src="/images/avatar/ugonzo.jpg"
+                      src="/images/avatar/mrnodia.png"
                       height="120"
                       width="120"
                     />
                   </Avatar>
-                  <Name>Ugonzo Art</Name>
+                  <Name>Mr.Nodia</Name>
                   <BottomSection>
                     <Badge number={i} />
-                    <Amount>$400,000</Amount>
+                    <Amount>$150k</Amount>
                   </BottomSection>
                 </Item>
               </a>

@@ -8,15 +8,17 @@ import NewsLetter from "./Home/NewsLetter";
 import Carousel from "./Home/Carousel";
 import TopCollectibles from "./Home/TopCollectibles";
 
+
+
 const HomeEl = styled.article`
   color: ${Colors.White};
 `;
 
-export default function Home() {
+export default function Home() { 
   return (
     <HomeEl>
       <Head>
-        <title>Crypto.con NFT Marketplace</title>
+        <title>Bitrent Marketplace</title>
         <meta
           name="description"
           content="Cleaned create-next-app including styled-components and configured theme"
@@ -29,4 +31,4 @@ export default function Home() {
       <TopCollectibles />
     </HomeEl>
   );
-}
+  }

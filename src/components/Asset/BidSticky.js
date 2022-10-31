@@ -63,16 +63,16 @@ export default function BidSticky() {
     <BidStickyEl>
       <LeftSection>
         <ThumbEl>
-          <Image src="/images/nft/bking.png" width="80px" height="80px" />
+          <Image src="/images/avatar/alliance.png" width="80px" height="80px" />
         </ThumbEl>
         <Info>
-          <EditionEl>Edition 17 of 371</EditionEl>
-          <Title>KING BITCOIN</Title>
+          <EditionEl>Residecial House on 22 floor</EditionEl>
+          <Title>Alliance Group</Title>
         </Info>
       </LeftSection>
       <RightSection>
-        <PlaceBidBtn>Place a bid</PlaceBidBtn>
-        <TextEl>A 10% royalty goes to the creator for future resale</TextEl>
+        <PlaceBidBtn>RENT NOW</PlaceBidBtn>
+        <TextEl>A 1% royalty goes to the platform</TextEl>
       </RightSection>
     </BidStickyEl>
   );
