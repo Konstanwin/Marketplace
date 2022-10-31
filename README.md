@@ -1,7 +1,7 @@
-# Youtube React NextJs UI Crypto.Com NFT Marketplace
+# Bitrent NFT Marketplace
 
-watch how to code this step by step on my youtube channel (https://youtu.be/pbqpKrz2XLU)
+watch how to code this step by step on my youtube channel ()
 
-designed based on crypto.com nft marketplace(https://crypto.com/nft/)
+designed based on crypto.com nft marketplace()
 
-![Web 1920 – 1](https://user-images.githubusercontent.com/19800339/153836005-d2a95aa2-da87-4eca-93ca-470f16e02e22.png)
+![Web 1920 – 1]()
