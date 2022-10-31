@@ -1,8 +1,6 @@
 {
   "name": "bitrent",
-  "private": true,
-
-  "scripts": {
+  "private": true,  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev",
