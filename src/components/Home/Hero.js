@@ -165,7 +165,7 @@ export default function Hero() {
     <HeroEl>
       <Title>
         <Heading>Rent and Earn </Heading>
-        <Sub>The easiest way to rent using crypto </Sub>
+        <Sub>The easiest way to rent using cryptocurrencies </Sub>
       </Title>
       <Slider>
         <InfoContainer>
